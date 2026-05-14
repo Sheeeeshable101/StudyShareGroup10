@@ -1,7 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.StudyShareGroup10" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <!-- Dark mode: same tokens for every named palette (accent choice is light-only). -->
+    <style name="Theme.StudyShareGroup10.Classroom" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#818CF8</item>
+        <item name="colorOnPrimary">#1E1B2E</item>
+        <item name="colorSecondary">#2DD4BF</item>
+        <item name="colorOnSecondary">#042F2E</item>
+        <item name="colorPrimaryContainer">#312E81</item>
+        <item name="colorOnPrimaryContainer">#E0E7FF</item>
+        <item name="colorSecondaryContainer">#134E4A</item>
+        <item name="colorOnSecondaryContainer">#CCFBF1</item>
+        <item name="colorSurface">#1E1B2E</item>
+        <item name="colorOnSurface">#F5F5F4</item>
+        <item name="colorOnSurfaceVariant">#A8A29E</item>
+        <item name="colorOutlineVariant">#3F3D56</item>
+        <item name="android:colorBackground">#121019</item>
+        <item name="android:windowBackground">#121019</item>
+        <item name="android:statusBarColor">#121019</item>
+        <item name="android:navigationBarColor">#121019</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <item name="hubHeroBadgeScrim">#40FFFFFF</item>
     </style>
+
+    <style name="Theme.StudyShareGroup10.Ocean" parent="Theme.StudyShareGroup10.Classroom" />
+
+    <style name="Theme.StudyShareGroup10.Sunset" parent="Theme.StudyShareGroup10.Classroom" />
+
+    <style name="Theme.StudyShareGroup10.Lavender" parent="Theme.StudyShareGroup10.Classroom" />
 </resources>

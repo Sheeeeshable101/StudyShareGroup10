@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hub_content_padding">20dp</dimen>
+    <dimen name="hub_card_spacing">14dp</dimen>
+    <dimen name="hub_card_corner">22dp</dimen>
+    <dimen name="hub_hero_corner">32dp</dimen>
+    <dimen name="hub_section_gap">8dp</dimen>
+</resources>

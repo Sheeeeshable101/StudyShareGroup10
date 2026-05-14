@@ -1,3 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">StudyShareGroup10</string>
+    <string name="app_name">StudyShare Hub</string>
+
+    <string name="hub_title">Classroom Resource Sharing Hub</string>
+    <string name="hub_tagline">Students upload and share reviewers, notes, PDFs, and practice quizzes.</string>
+
+    <string name="section_problem">Problem solved</string>
+    <string name="problem_body">Not all students have access to learning materials.</string>
+
+    <string name="section_features">Features</string>
+    <string name="feature_upload">📎  Upload files</string>
+    <string name="feature_subject">📚  Subject categorization</string>
+    <string name="feature_quiz">✏️  Quiz generator</string>
+    <string name="feature_ratings">⭐  Ratings / comments</string>
+
+    <string name="section_apis">APIs</string>
+    <string name="api_firebase">Firebase Storage</string>
+    <string name="api_pdf">PDF Viewer API</string>
+    <string name="api_ai">AI summarizer API</string>
+
+    <string name="section_color_theme">Color theme</string>
+    <string name="palette_hint">Pick an accent palette for light mode. Dark mode keeps a single calm look.</string>
+    <string name="palette_classroom">Classroom</string>
+    <string name="palette_ocean">Ocean</string>
+    <string name="palette_sunset">Sunset</string>
+    <string name="palette_lavender">Lavender</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_account">Account</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_back_content_desc">Back to home</string>
+
+    <string name="section_settings">Settings</string>
+    <string name="settings_subtitle">Theme and tips for connecting APIs.</string>
+    <string name="section_summarizer_help">AI summarizer</string>
+    <string name="settings_summarizer_hint">Configure summarizer.url and summarizer.apiKey in local.properties (not committed to Git), then Sync Project. Use the Home tab to run a summary on your notes.</string>
+
+    <string name="section_account">Your account</string>
+    <string name="account_subtitle">Profile and sign-in for the resource hub.</string>
+    <string name="profile_photo_desc">Profile picture</string>
+    <string name="btn_change_photo">Change profile picture</string>
+    <string name="hint_display_name">Display name</string>
+    <string name="btn_save_profile">Save profile</string>
+    <string name="account_details_header">Sign-in details</string>
+    <string name="account_uid_fmt">User ID: %1$s</string>
+    <string name="account_no_email">No email on this account</string>
+    <string name="account_not_signed_in">Not signed in</string>
+    <string name="account_type_guest">Guest (anonymous) session</string>
+    <string name="account_type_signed_in">Signed-in account</string>
+    <string name="btn_log_out">Log out</string>
+    <string name="logged_out">You have been logged out. Signing you back in as a guest…</string>
+    <string name="profile_saved">Profile saved.</string>
+    <string name="profile_photo_updated">Profile photo updated.</string>
+    <string name="profile_photo_error">Could not save photo: %1$s</string>
+
+    <string name="section_appearance">Appearance</string>
+    <string name="appearance_subtitle">Switch between light and dark, or follow your device.</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="badge_for_students">Student-friendly · Group 10</string>
+    <string name="footer_note">Built for Android Studio · Material Design 3</string>
+
+    <string name="section_try_apis">Try the APIs</string>
+    <string name="btn_upload_storage">Upload file to Firebase Storage</string>
+    <string name="btn_open_pdf">Open PDF (local viewer)</string>
+    <string name="notes_hint">Paste study notes or a chapter to summarize</string>
+    <string name="btn_summarize">Run AI summarizer</string>
+    <string name="summarizer_not_configured">Add summarizer.url (and optional summarizer.apiKey) to local.properties, then Sync Project.</string>
+    <string name="summarizer_empty_notes">Add some text to summarize first.</string>
+    <string name="summarizer_working">Summarizing…</string>
+    <string name="summarizer_error">Could not summarize: %1$s</string>
+    <string name="firebase_signing_in">Connecting to Firebase…</string>
+    <string name="firebase_signed_in">Ready to upload (signed in anonymously).</string>
+    <string name="firebase_auth_failed">Firebase sign-in failed. Replace app/google-services.json with your Firebase project file.</string>
+    <string name="firebase_wait_auth">Please wait for Firebase sign-in to finish.</string>
+    <string name="upload_in_progress">Uploading…</string>
+    <string name="upload_success">Upload finished.</string>
+    <string name="upload_failed">Upload failed.</string>
+    <string name="upload_error_fmt">Upload error: %1$s</string>
+    <string name="pdf_open_error">Could not open PDF: %1$s</string>
+    <string name="pdf_prev">Prev</string>
+    <string name="pdf_next">Next</string>
+    <string name="pdf_page_indicator">Page %1$d of %2$d</string>
+    <string name="pdf_page_image_desc">Rendered PDF page</string>
 </resources>
