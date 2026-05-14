@@ -1,9 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.StudyShareGroup10" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <!-- Launcher / default: classroom palette -->
+    <style name="Theme.StudyShareGroup10" parent="Theme.StudyShareGroup10.Classroom" />
+
+    <style name="Theme.StudyShareGroup10.Classroom" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#4338CA</item>
+        <item name="colorOnPrimary">#FFFBF7</item>
+        <item name="colorSecondary">#0D9488</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#EEF2FF</item>
+        <item name="colorOnPrimaryContainer">#3730A3</item>
+        <item name="colorSecondaryContainer">#CCFBF1</item>
+        <item name="colorOnSecondaryContainer">#134E4A</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#1C1917</item>
+        <item name="colorOnSurfaceVariant">#57534E</item>
+        <item name="colorOutlineVariant">#E7E5E4</item>
+        <item name="android:colorBackground">#FDF8F3</item>
+        <item name="android:windowBackground">#FDF8F3</item>
+        <item name="android:statusBarColor">#FDF8F3</item>
+        <item name="android:navigationBarColor">#FDF8F3</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="hubHeroBadgeScrim">#33FFFFFF</item>
     </style>
 
-    <style name="Theme.StudyShareGroup10" parent="Base.Theme.StudyShareGroup10" />
+    <style name="Theme.StudyShareGroup10.Ocean" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#0369A1</item>
+        <item name="colorOnPrimary">#F0F9FF</item>
+        <item name="colorSecondary">#0E7490</item>
+        <item name="colorOnSecondary">#ECFEFF</item>
+        <item name="colorPrimaryContainer">#E0F2FE</item>
+        <item name="colorOnPrimaryContainer">#075985</item>
+        <item name="colorSecondaryContainer">#CFFAFE</item>
+        <item name="colorOnSecondaryContainer">#164E63</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#0C4A6E</item>
+        <item name="colorOnSurfaceVariant">#64748B</item>
+        <item name="colorOutlineVariant">#CBD5E1</item>
+        <item name="android:colorBackground">#F0F9FF</item>
+        <item name="android:windowBackground">#F0F9FF</item>
+        <item name="android:statusBarColor">#F0F9FF</item>
+        <item name="android:navigationBarColor">#F0F9FF</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="hubHeroBadgeScrim">#33FFFFFF</item>
+    </style>
+
+    <style name="Theme.StudyShareGroup10.Sunset" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#C2410C</item>
+        <item name="colorOnPrimary">#FFF7ED</item>
+        <item name="colorSecondary">#DB2777</item>
+        <item name="colorOnSecondary">#FFF1F2</item>
+        <item name="colorPrimaryContainer">#FFEDD5</item>
+        <item name="colorOnPrimaryContainer">#9A3412</item>
+        <item name="colorSecondaryContainer">#FCE7F3</item>
+        <item name="colorOnSecondaryContainer">#9D174D</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#431407</item>
+        <item name="colorOnSurfaceVariant">#9A3412</item>
+        <item name="colorOutlineVariant">#FDBA74</item>
+        <item name="android:colorBackground">#FFF7ED</item>
+        <item name="android:windowBackground">#FFF7ED</item>
+        <item name="android:statusBarColor">#FFF7ED</item>
+        <item name="android:navigationBarColor">#FFF7ED</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="hubHeroBadgeScrim">#33FFFFFF</item>
+    </style>
+
+    <style name="Theme.StudyShareGroup10.Lavender" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#6D28D9</item>
+        <item name="colorOnPrimary">#FAF5FF</item>
+        <item name="colorSecondary">#7C3AED</item>
+        <item name="colorOnSecondary">#F5F3FF</item>
+        <item name="colorPrimaryContainer">#EDE9FE</item>
+        <item name="colorOnPrimaryContainer">#5B21B6</item>
+        <item name="colorSecondaryContainer">#EDE9FE</item>
+        <item name="colorOnSecondaryContainer">#5B21B6</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#4C1D95</item>
+        <item name="colorOnSurfaceVariant">#6B21A8</item>
+        <item name="colorOutlineVariant">#DDD6FE</item>
+        <item name="android:colorBackground">#FAF5FF</item>
+        <item name="android:windowBackground">#FAF5FF</item>
+        <item name="android:statusBarColor">#FAF5FF</item>
+        <item name="android:navigationBarColor">#FAF5FF</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="hubHeroBadgeScrim">#33FFFFFF</item>
+    </style>
 </resources>
